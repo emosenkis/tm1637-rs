@@ -1,0 +1,15 @@
+[package]
+name = "tm1637"
+version = "0.1.0"
+authors = ["Eitan Mosenkis <eitan@mosenkis.net>"]
+description = "Drive TM1637 7-segment controller via GPIO"
+repository = "https://github.com/emosenkis/tm1637-rs"
+documentation = "https://docs.rs/tm1637"
+keywords = ["tm1637", "7-segment"]
+license = "MIT"
+
+[dependencies]
+sysfs_gpio = "0.5"
+
+[dev-dependencies]
+chrono = "0.2"
